@@ -1,0 +1,82 @@
+.filters-group-container {
+  margin-top: 16px;
+}
+
+.search-box-container {
+  display: flex;
+}
+
+.search-box {
+  border: 0;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #f1f5f9;
+  flex-grow: 1;
+  margin: 10px;
+}
+
+.category-container {
+  padding: 0;
+}
+
+.category-heading,
+.rating-heading {
+  font-size: 20px;
+}
+
+.category-list-item,
+.rating-list-item {
+  list-style: none;
+}
+
+.category-button,
+.rating-button {
+  border: 0;
+  background-color: transparent;
+  margin-bottom: 10px;
+  padding: 0;
+  cursor: pointer;
+}
+
+.active-category {
+  color: #0967d2;
+  font-weight: 700;
+}
+
+.filter-group-rating-container {
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.rating-heading {
+  align-self: flex-start;
+}
+
+.rating-image {
+  width: 100px;
+}
+
+.clear-filter-button {
+  border: #0967d2;
+  color: #0967d2;
+  font-weight: 800;
+  padding: 10px;
+  background-color: transparent;
+}
+
+@media screen and (min-width: 768px) {
+  .filters-group-container {
+    width: 30%;
+    max-width: 350px;
+    margin-top: 48px;
+    flex-shrink: 0;
+  }
+}
+
+/* Write your CSS here */
